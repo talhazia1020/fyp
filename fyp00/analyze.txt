@@ -1,0 +1,308 @@
+﻿Resolving dependencies...
+Downloading packages...
+  _flutterfire_internals 1.3.35 (1.3.69 available)
+  cloud_firestore 4.17.5 (6.3.0 available)
+  cloud_firestore_platform_interface 6.2.5 (7.2.0 available)
+  cloud_firestore_web 3.12.5 (5.3.0 available)
+  decimal 2.3.3 (3.2.4 available)
+  firebase_auth 4.20.0 (6.4.0 available)
+  firebase_auth_platform_interface 7.3.0 (8.1.9 available)
+  firebase_auth_web 5.12.0 (6.1.5 available)
+  firebase_core 2.32.0 (4.7.0 available)
+  firebase_core_platform_interface 5.4.2 (6.0.3 available)
+  firebase_core_web 2.17.5 (3.6.0 available)
+  geolocator 11.1.0 (14.0.2 available)
+  geolocator_android 4.6.2 (5.0.2 available)
+  geolocator_web 3.0.0 (4.1.3 available)
+  google_maps_flutter 2.14.2 (2.17.0 available)
+  google_maps_flutter_web 0.5.14+3 (0.6.2 available)
+  intl 0.19.0 (0.20.2 available)
+  meta 1.17.0 (1.18.2 available)
+  test_api 0.7.10 (0.7.11 available)
+  vector_math 2.2.0 (2.3.0 available)
+  web 0.5.1 (1.1.1 available)
+  xml 6.6.1 (7.0.0 available)
+Got dependencies!
+22 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing fyp00...                                              
+
+   info - The file name 'Dashboard.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\Dashboard.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\Dashboard.dart:15:9 - use_super_parameters
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Dashboard.dart:69:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Dashboard.dart:72:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\Dashboard.dart:93:11 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Dashboard.dart:126:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\Dashboard.dart:134:9 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Dashboard.dart:138:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Dashboard.dart:171:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Dashboard.dart:203:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Dashboard.dart:236:44 - deprecated_member_use
+   info - Unnecessary braces in a string interpolation - lib\fyp\Customer\Dashboard.dart:257:34 - unnecessary_brace_in_string_interps
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Dashboard.dart:388:32 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Dashboard.dart:442:32 - avoid_unnecessary_containers
+   info - 'color' is deprecated and shouldn't be used. Use colorFilter instead - lib\fyp\Customer\Dashboard.dart:462:35 - deprecated_member_use
+   info - 'color' is deprecated and shouldn't be used. Use colorFilter instead - lib\fyp\Customer\Dashboard.dart:608:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Dashboard.dart:684:46 - deprecated_member_use
+   info - The file name 'Friends.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\Friends.dart:1:1 - file_names
+warning - Unused import: 'package:cloud_firestore/cloud_firestore.dart' - lib\fyp\Customer\Friends.dart:2:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Friends.dart:21:40 - deprecated_member_use
+   info - The file name 'Leaderboards.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\Leaderboards.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\Leaderboards.dart:10:9 - use_super_parameters
+   info - The private field _scrollController could be 'final' - lib\fyp\Customer\Leaderboards.dart:28:20 - prefer_final_fields
+   info - Function literals shouldn't be passed to 'forEach' - lib\fyp\Customer\Leaderboards.dart:130:27 - avoid_function_literals_in_foreach_calls
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Leaderboards.dart:182:7 - avoid_print
+   info - Function literals shouldn't be passed to 'forEach' - lib\fyp\Customer\Leaderboards.dart:224:27 - avoid_function_literals_in_foreach_calls
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Leaderboards.dart:250:7 - avoid_print
+   info - Use interpolation to compose strings and values - lib\fyp\Customer\Leaderboards.dart:302:72 - prefer_interpolation_to_compose_strings
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Leaderboards.dart:339:31 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\Leaderboards.dart:399:54 - use_build_context_synchronously
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\fyp\Customer\Leaderboards.dart:457:24 - sized_box_for_whitespace
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Leaderboards.dart:661:42 - deprecated_member_use
+warning - The operand can't be 'null', so the condition is always 'true' - lib\fyp\Customer\Leaderboards.dart:667:36 - unnecessary_null_comparison
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:674:25 - sort_child_properties_last
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:679:33 - sort_child_properties_last
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:699:31 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:712:31 - avoid_unnecessary_containers
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:737:25 - sort_child_properties_last
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:742:33 - sort_child_properties_last
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:762:31 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:775:31 - avoid_unnecessary_containers
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:800:25 - sort_child_properties_last
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:805:33 - sort_child_properties_last
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:825:31 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:837:31 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:958:19 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:972:19 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:983:19 - avoid_unnecessary_containers
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Leaderboards.dart:1021:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Leaderboards.dart:1038:42 - deprecated_member_use
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1064:36 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1094:36 - avoid_unnecessary_containers
+warning - The operand can't be 'null', so the condition is always 'true' - lib\fyp\Customer\Leaderboards.dart:1118:36 - unnecessary_null_comparison
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:1125:25 - sort_child_properties_last
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:1130:33 - sort_child_properties_last
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1150:31 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1162:31 - avoid_unnecessary_containers
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:1187:25 - sort_child_properties_last
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:1192:33 - sort_child_properties_last
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1212:31 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1224:31 - avoid_unnecessary_containers
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:1249:25 - sort_child_properties_last
+   info - The 'child' argument should be last in widget constructor invocations - lib\fyp\Customer\Leaderboards.dart:1254:33 - sort_child_properties_last
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1274:31 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1287:31 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1337:33 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1349:33 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1361:33 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1403:19 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1417:19 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\Leaderboards.dart:1428:19 - avoid_unnecessary_containers
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Leaderboards.dart:1466:35 - deprecated_member_use
+   info - Constructors for public widgets should have a named 'key' parameter - lib\fyp\Customer\Leaderboards.dart:1483:3 - use_key_in_widget_constructors
+   info - Constructors in '@immutable' classes should be declared as 'const' - lib\fyp\Customer\Leaderboards.dart:1483:3 - prefer_const_constructors_in_immutables
+   info - Unnecessary use of string interpolation - lib\fyp\Customer\Leaderboards.dart:1581:25 - unnecessary_string_interpolations
+   info - The file name 'Login.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\Login.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\Login.dart:9:9 - use_super_parameters
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\Login.dart:43:11 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\Login.dart:91:13 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Login.dart:108:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Login.dart:126:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Login.dart:130:7 - avoid_print
+warning - The value of the local variable 'screenWidth' isn't used - lib\fyp\Customer\Login.dart:152:12 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Login.dart:308:35 - deprecated_member_use
+   info - The file name 'OrderConfirmation.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\OrderConfirmation.dart:1:1 - file_names
+   info - Constructors for public widgets should have a named 'key' parameter - lib\fyp\Customer\OrderConfirmation.dart:3:7 - use_key_in_widget_constructors
+   info - The file name 'OrderDetails.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\OrderDetails.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\OrderDetails.dart:7:9 - use_super_parameters
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\OrderDetails.dart:20:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\OrderDetails.dart:24:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\OrderDetails.dart:39:40 - deprecated_member_use
+   info - The file name 'Orders.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\Orders.dart:1:1 - file_names
+warning - Unused import: 'OrderDetails.dart' - lib\fyp\Customer\Orders.dart:4:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\Orders.dart:11:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\fyp\Customer\Orders.dart:14:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Orders.dart:66:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Orders.dart:104:7 - avoid_print
+   info - Function literals shouldn't be passed to 'forEach' - lib\fyp\Customer\Orders.dart:212:28 - avoid_function_literals_in_foreach_calls
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Orders.dart:219:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Orders.dart:232:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Orders.dart:246:9 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\Orders.dart:255:9 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Orders.dart:281:7 - avoid_print
+warning - The value of the local variable 'screenHeight' isn't used - lib\fyp\Customer\Orders.dart:286:12 - unused_local_variable
+warning - The value of the local variable 'screenWidth' isn't used - lib\fyp\Customer\Orders.dart:287:12 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Orders.dart:295:38 - deprecated_member_use
+   info - Unnecessary escape in string literal - lib\fyp\Customer\Orders.dart:349:49 - unnecessary_string_escapes
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Orders.dart:424:38 - deprecated_member_use
+   info - Unnecessary escape in string literal - lib\fyp\Customer\Orders.dart:456:36 - unnecessary_string_escapes
+   info - The file name 'Profile.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\Profile.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\Profile.dart:10:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\fyp\Customer\Profile.dart:13:3 - library_private_types_in_public_api
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\Profile.dart:95:26 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\Profile.dart:120:20 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\Profile.dart:122:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\Profile.dart:123:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\Profile.dart:168:40 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\fyp\Customer\Profile.dart:365:9 - deprecated_member_use
+   info - The file name 'Register.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\Register.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\Register.dart:7:9 - use_super_parameters
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\fyp\Customer\Register.dart:187:9 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\fyp\Customer\Register.dart:188:9 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\fyp\Customer\Register.dart:201:9 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\fyp\Customer\Register.dart:202:9 - deprecated_member_use
+   info - The file name 'RegisterAddress.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\RegisterAddress.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\RegisterAddress.dart:19:9 - use_super_parameters
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\RegisterAddress.dart:114:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\RegisterAddress.dart:122:9 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\RegisterAddress.dart:126:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\RegisterAddress.dart:127:28 - use_build_context_synchronously
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\fyp\Customer\RegisterAddress.dart:200:15 - deprecated_member_use
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\fyp\Customer\RegisterAddress.dart:223:26 - sized_box_for_whitespace
+   info - The file name 'RegisterMap.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\RegisterMap.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\RegisterMap.dart:9:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\fyp\Customer\RegisterMap.dart:12:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\RegisterMap.dart:55:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\RegisterMap.dart:76:9 - avoid_print
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\RegisterMap.dart:114:22 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\RegisterMap.dart:125:15 - avoid_unnecessary_containers
+   info - The file name 'SchedulePickup.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\SchedulePickup.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\SchedulePickup.dart:13:9 - use_super_parameters
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\SchedulePickup.dart:63:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\SchedulePickup.dart:77:40 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\SchedulePickup.dart:392:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\SchedulePickup.dart:424:9 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\SchedulePickup.dart:431:11 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\SchedulePickup.dart:440:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Customer\SchedulePickup.dart:441:28 - use_build_context_synchronously
+   info - The imported package 'http' isn't a dependency of the importing package - lib\fyp\Customer\third.dart:13:8 - depend_on_referenced_packages
+   info - Constructors for public widgets should have a named 'key' parameter - lib\fyp\Customer\third.dart:16:7 - use_key_in_widget_constructors
+   info - Invalid use of a private type in a public API - lib\fyp\Customer\third.dart:18:3 - library_private_types_in_public_api
+  error - Undefined class 'TplMapsViewController' - lib\fyp\Customer\third.dart:21:6 - undefined_class
+warning - The operand can't be 'null', so the condition is always 'true' - lib\fyp\Customer\third.dart:33:20 - unnecessary_null_comparison
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:38:9 - avoid_print
+   info - The member 'build' overrides an inherited member but isn't annotated with '@override' - lib\fyp\Customer\third.dart:52:10 - annotate_overrides
+warning - The value of the local variable 'viewType' isn't used - lib\fyp\Customer\third.dart:54:18 - unused_local_variable
+warning - The value of the local variable 'creationParams' isn't used - lib\fyp\Customer\third.dart:56:32 - unused_local_variable
+  error - The method 'TplMapsView' isn't defined for the type '_MyAppState' - lib\fyp\Customer\third.dart:65:20 - undefined_method
+  error - Undefined name 'MapMode' - lib\fyp\Customer\third.dart:71:24 - undefined_identifier
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\third.dart:87:22 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Customer\third.dart:98:15 - avoid_unnecessary_containers
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:180:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:198:9 - avoid_print
+   info - Use interpolation to compose strings and values - lib\fyp\Customer\third.dart:200:18 - prefer_interpolation_to_compose_strings
+  error - Undefined class 'TplMapsViewController' - lib\fyp\Customer\third.dart:205:18 - undefined_class
+  error - Undefined name 'MapMode' - lib\fyp\Customer\third.dart:234:27 - undefined_identifier
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:236:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:238:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:240:5 - avoid_print
+  error - Undefined class 'TPlSearchViewController' - lib\fyp\Customer\third.dart:286:5 - undefined_class
+  error - The method 'TPlSearchViewController' isn't defined for the type '_MyAppState' - lib\fyp\Customer\third.dart:286:55 - undefined_method
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:291:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:307:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:308:13 - avoid_print
+   info - Unnecessary braces in a string interpolation - lib\fyp\Customer\third.dart:323:93 - unnecessary_brace_in_string_interps
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:353:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:354:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Customer\third.dart:358:7 - avoid_print
+   info - The file name 'whyRecycle.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Customer\whyRecycle.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Customer\whyRecycle.dart:9:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Customer\whyRecycle.dart:22:40 - deprecated_member_use
+   info - The file name 'ConfirmOrder.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Rider\ConfirmOrder.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Rider\ConfirmOrder.dart:12:9 - use_super_parameters
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:71:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Rider\ConfirmOrder.dart:150:40 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:345:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:355:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:365:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:368:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\ConfirmOrder.dart:370:9 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:382:21 - avoid_print
+   info - Function literals shouldn't be passed to 'forEach' - lib\fyp\Rider\ConfirmOrder.dart:388:42 - avoid_function_literals_in_foreach_calls
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\ConfirmOrder.dart:397:35 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:407:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:416:9 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\ConfirmOrder.dart:419:25 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:424:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:430:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:447:13 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\ConfirmOrder.dart:498:11 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\ConfirmOrder.dart:522:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\ConfirmOrder.dart:523:21 - use_build_context_synchronously
+   info - The file name 'Dashboard.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Rider\Dashboard.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Rider\Dashboard.dart:12:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\fyp\Rider\Dashboard.dart:15:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\Dashboard.dart:62:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\Dashboard.dart:65:7 - avoid_print
+warning - The value of the local variable 'orderId' isn't used - lib\fyp\Rider\Dashboard.dart:84:16 - unused_local_variable
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\Dashboard.dart:88:11 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\Dashboard.dart:106:29 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\Dashboard.dart:109:41 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\Dashboard.dart:137:23 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\Dashboard.dart:139:11 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\Dashboard.dart:156:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\Dashboard.dart:183:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\Dashboard.dart:218:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\Dashboard.dart:243:19 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Rider\Dashboard.dart:269:42 - deprecated_member_use
+warning - The operand can't be 'null', so the condition is always 'false' - lib\fyp\Rider\Dashboard.dart:288:47 - unnecessary_null_comparison
+   info - Unnecessary instance of 'Container' - lib\fyp\Rider\Dashboard.dart:374:35 - avoid_unnecessary_containers
+   info - Unnecessary instance of 'Container' - lib\fyp\Rider\Dashboard.dart:382:35 - avoid_unnecessary_containers
+   info - The file name 'OrderDetails.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Rider\OrderDetails.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Rider\OrderDetails.dart:14:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\fyp\Rider\OrderDetails.dart:17:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\OrderDetails.dart:67:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\OrderDetails.dart:70:7 - avoid_print
+   info - Function literals shouldn't be passed to 'forEach' - lib\fyp\Rider\OrderDetails.dart:122:28 - avoid_function_literals_in_foreach_calls
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\OrderDetails.dart:136:21 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\OrderDetails.dart:138:7 - avoid_print
+   info - Function literals shouldn't be passed to 'forEach' - lib\fyp\Rider\OrderDetails.dart:223:28 - avoid_function_literals_in_foreach_calls
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\OrderDetails.dart:231:28 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\OrderDetails.dart:237:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\OrderDetails.dart:238:28 - use_build_context_synchronously
+warning - The declaration '_callback' isn't referenced - lib\fyp\Rider\OrderDetails.dart:299:8 - unused_element
+   info - Missing type annotation - lib\fyp\Rider\OrderDetails.dart:299:18 - strict_top_level_inference
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\OrderDetails.dart:312:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\OrderDetails.dart:314:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\OrderDetails.dart:316:5 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Rider\OrderDetails.dart:332:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Rider\OrderDetails.dart:380:42 - deprecated_member_use
+   info - Unnecessary instance of 'Container' - lib\fyp\Rider\OrderDetails.dart:396:27 - avoid_unnecessary_containers
+   info - Use a 'SizedBox' to add whitespace to a layout - lib\fyp\Rider\OrderDetails.dart:497:26 - sized_box_for_whitespace
+   info - The file name 'Orders.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Rider\Orders.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Rider\Orders.dart:10:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\fyp\Rider\Orders.dart:13:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\Orders.dart:66:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Rider\Orders.dart:86:40 - deprecated_member_use
+   info - Unnecessary instance of 'Container' - lib\fyp\Rider\Orders.dart:150:35 - avoid_unnecessary_containers
+   info - The file name 'Profile.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Rider\Profile.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Rider\Profile.dart:8:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\fyp\Rider\Profile.dart:11:3 - library_private_types_in_public_api
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Rider\Profile.dart:34:42 - deprecated_member_use
+   info - Unnecessary use of string interpolation - lib\fyp\Rider\Profile.dart:190:17 - unnecessary_string_interpolations
+   info - The file name 'RiderMap.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Rider\RiderMap.dart:1:1 - file_names
+   info - Constructors for public widgets should have a named 'key' parameter - lib\fyp\Rider\RiderMap.dart:10:9 - use_key_in_widget_constructors
+   info - Invalid use of a private type in a public API - lib\fyp\Rider\RiderMap.dart:13:3 - library_private_types_in_public_api
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\RiderMap.dart:55:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\RiderMap.dart:78:9 - avoid_print
+   info - The file name 'riderLogin.dart' isn't a lower_case_with_underscores identifier - lib\fyp\Rider\riderLogin.dart:1:1 - file_names
+   info - Parameter 'key' could be a super parameter - lib\fyp\Rider\riderLogin.dart:8:9 - use_super_parameters
+   info - Don't use 'BuildContext's across async gaps - lib\fyp\Rider\riderLogin.dart:66:13 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\riderLogin.dart:83:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\riderLogin.dart:102:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\fyp\Rider\riderLogin.dart:106:7 - avoid_print
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\fyp\Rider\riderLogin.dart:258:21 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\fyp\Rider\riderLogin.dart:271:25 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\main.dart:59:7 - avoid_print
+   info - Use an initializing formal to assign a parameter to a field - lib\main.dart:73:8 - prefer_initializing_formals
+   info - Parameter 'key' could be a super parameter - lib\main.dart:133:9 - use_super_parameters
+
+flutter : 269 issues found. (ran in 9.4s)
+At line:1 char:1
++ flutter analyze 2>&1 | Out-File -FilePath "analyze.txt" -Encoding 
+utf ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (269 issues found. (ran 
+    in 9.4s):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
